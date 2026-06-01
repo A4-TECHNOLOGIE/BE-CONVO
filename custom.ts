@@ -5,9 +5,9 @@ enum ButtonChoice { // définition des valeurs possibles pour le choix du BP
     D
 }
 
-//% weight=100 color=#EB8AEB icon="\uf06e"
+//% weight=100 color=#EB8AEB icon="\u26a1"
 //% groups="['Push Buttons', 'Potentiometer', 'Motor', 'Servomotor', 'OLED Screen', 'Light ring']"
-namespace a4_conveyor {
+namespace conveyor {
 
     //%block="On button %button pressed"
     //%group='Push Buttons'
