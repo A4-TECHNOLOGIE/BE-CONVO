@@ -35,7 +35,7 @@
   "conveyor.stopMotor|block": "Arrêter le moteur",
   "conveyor.switchfunc|block": "Définir caméra en %fun",
   "conveyor|block": "a4_Convoyeur",
-  "{id:category}Conveyor": "Convoyeur",
+  "{id:category}Conveyor": "a4_Convoyeur",
   "{id:group}Basics": "Basiques",
   "{id:group}Colors": "Couleurs",
   "{id:group}Learn": "Apprendre",
