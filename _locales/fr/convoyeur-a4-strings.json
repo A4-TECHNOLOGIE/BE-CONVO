@@ -34,7 +34,7 @@
   "conveyor.showUserText|block": "Afficher texte %text ligne %line",
   "conveyor.stopMotor|block": "Arrêter le moteur",
   "conveyor.switchfunc|block": "Définir caméra en %fun",
-  "conveyor|block": "Conveyor",
+  "conveyor|block": "Convoyeur",
   "{id:category}Conveyor": "Convoyeur",
   "{id:group}Basics": "Basiques",
   "{id:group}Colors": "Couleurs",
