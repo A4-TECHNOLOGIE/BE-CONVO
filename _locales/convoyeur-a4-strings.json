@@ -35,7 +35,7 @@
   "conveyor.stopMotor|block": "Stop motor",
   "conveyor.switchfunc|block": "Switch function as %fun",
   "conveyor|block": "a4_Conveyor",
-  "{id:category}Conveyor": "Conveyor",
+  "{id:category}Conveyor": "a4_Conveyor",
   "{id:group}Basics": "Basics",
   "{id:group}Colors": "Colors",
   "{id:group}Learn": "Learn",
