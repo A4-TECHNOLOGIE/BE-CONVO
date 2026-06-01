@@ -1,0 +1,18 @@
+{
+  "convoyeur.ClearlearnObject": "TODO: Clear Learned Objects",
+  "convoyeur.ColorLs": "Status List of Color",
+  "convoyeur.cameraImage": "TODO: Get the image in a frame",
+  "convoyeur.colorCheck": "TODO: Judge whether there is a color in the screen",
+  "convoyeur.colorCheck|param|status": "ColorLs",
+  "convoyeur.initModule": "TODO: Waiting for module initialize.",
+  "convoyeur.learnObject": "TODO: Learn an object in a picture",
+  "convoyeur.learnObject|param|thingsID": "Edit a label for the object",
+  "convoyeur.objectCheck": "TODO: Judge whether there are any learned objects in the picture",
+  "convoyeur.objectConfidence": "TODO: Judge whether there are any learned objects in the picture",
+  "convoyeur.rgb": "Converts red, green, blue channels into a RGB color",
+  "convoyeur.rgb|param|blue": "value of the blue channel between 0 and 255. eg: 255",
+  "convoyeur.rgb|param|green": "value of the green channel between 0 and 255. eg: 255",
+  "convoyeur.rgb|param|red": "value of the red channel between 0 and 255. eg: 255",
+  "convoyeur.switchfunc": "TODO: Switch recognition objects.",
+  "convoyeur.switchfunc|param|fun": "Function list "
+}
