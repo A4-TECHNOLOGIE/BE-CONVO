@@ -1,5 +1,5 @@
 {
-    "name": "a4 BE-CONVO",
+    "name": "a4_BE_CONVO",
     "description": "Extension pour la maquette a4 Convoyeur de tri IA",
     "dependencies": {
         "core": "*",
