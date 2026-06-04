@@ -1,24 +1,77 @@
+# a4_BE_CONVO
 
-> Ouvrir cette page à 
+Extension MakeCode pour la maquette **a4_BE_CONVO**.
 
-## Utiliser comme extension
+Cette extension permet de piloter les différents éléments de la maquette depuis Microsoft MakeCode pour micro:bit :
 
-Ce dépôt peut être ajouté en tant qu'**extension** dans MakeCode.
+* boutons poussoirs ;
+* potentiomètre ;
+* moteur ;
+* servomoteur ;
+* écran OLED ;
+* anneau lumineux ;
+* caméra IA AI-Lens.
 
-* ouvrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* cliquez sur **Nouveau projet**
-* cliquez sur **Extensions** dans le menu engrenage
-* recherchez 
+## Utiliser cette extension dans MakeCode
 
-## Éditer ce projet
+Ce dépôt peut être ajouté comme extension dans MakeCode micro:bit.
 
-Éditer ce dépôt dans MakeCode.
+1. Ouvrir https://makecode.microbit.org/
+2. Créer un nouveau projet.
+3. Cliquer sur **Extensions**.
+4. Coller l’adresse du dépôt :
 
-* ouvrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* cliquez sur **Importer** puis cliquez sur **Importer l'URL **
-* collez 
+```text
+https://github.com/A4-TECHNOLOGIE/BE-CONVO
+```
 
-#### Métadonnées (utilisées pour la recherche, le rendu)
+5. Sélectionner l’extension **a4_BE_CONVO**.
 
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+## Éditer ce projet dans MakeCode
+
+Pour modifier l’extension directement dans MakeCode :
+
+1. Ouvrir https://makecode.microbit.org/
+2. Cliquer sur **Importer**.
+3. Cliquer sur **Importer l’URL**.
+4. Coller l’adresse du dépôt :
+
+```text
+https://github.com/A4-TECHNOLOGIE/BE-CONVO
+```
+
+5. Cliquer sur **Importer**.
+
+## Blocs disponibles
+
+L’extension ajoute une catégorie de blocs nommée **a4_BE_CONVO**.
+
+Les blocs sont organisés par fonctions :
+
+* **Boutons poussoirs** : détection des boutons A, B, C et D.
+* **Potentiomètre** : lecture de la valeur du potentiomètre en pourcentage.
+* **Moteur** : activation, réglage de la vitesse et arrêt du moteur.
+* **Servomoteur** : réglage de l’angle du servomoteur.
+* **Écran OLED** : affichage de texte ou de nombres, effacement de l’écran.
+* **Anneau lumineux** : allumage, choix d’une couleur, réglage RGB et extinction.
+* **Caméra IA** : initialisation, reconnaissance de couleurs et apprentissage d’objets.
+
+## Compatibilité
+
+Cette extension est prévue pour :
+
+```text
+micro:bit
+```
+
+## Métadonnées MakeCode
+
+```package
+a4_BE_CONVO=github:A4-TECHNOLOGIE/BE-CONVO
+```
+
+<script src="https://makecode.com/gh-pages-embed.js"></script>
+
+<script>
+makeCodeRender("https://makecode.microbit.org/", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");
+</script>
