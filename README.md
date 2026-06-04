@@ -1,5 +1,5 @@
 
-> Ouvrir cette page à [https://emsrn.github.io/blocs_convoyeur_a4/](https://emsrn.github.io/blocs_convoyeur_a4/)
+> Ouvrir cette page à 
 
 ## Utiliser comme extension
 
@@ -8,7 +8,7 @@ Ce dépôt peut être ajouté en tant qu'**extension** dans MakeCode.
 * ouvrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * cliquez sur **Nouveau projet**
 * cliquez sur **Extensions** dans le menu engrenage
-* recherchez **https://github.com/emsrn/blocs_convoyeur_a4** et importez
+* recherchez 
 
 ## Éditer ce projet
 
@@ -16,7 +16,7 @@ Ce dépôt peut être ajouté en tant qu'**extension** dans MakeCode.
 
 * ouvrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * cliquez sur **Importer** puis cliquez sur **Importer l'URL **
-* collez **https://github.com/emsrn/blocs_convoyeur_a4** et cliquez sur importer
+* collez 
 
 #### Métadonnées (utilisées pour la recherche, le rendu)
 
