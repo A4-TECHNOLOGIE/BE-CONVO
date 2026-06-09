@@ -84,11 +84,6 @@ namespace a4_BE_CONVO {
         pins.i2cWriteBuffer(neZha_address, iic_buffer);
     }
 
-    ////////////////////////////////TM 1637/////////////////
-    let TM1637_CMD1 = 0x40;
-    let TM1637_CMD2 = 0xC0;
-    let TM1637_CMD3 = 0x80;
-    let _SEGMENTS = [0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F, 0x77, 0x7C, 0x39, 0x5E, 0x79, 0x71];
     /////////////////////OLED///////////////////////////////
     let firstoledinit = true
     const basicFont: string[] = [
@@ -242,28 +237,7 @@ namespace a4_BE_CONVO {
         oledcmd(0xA6);  // Set display not inverted
         oledcmd(0xAF);  // Set display On
     }
-    //////////////////////////////////////////////////////////////Matrix
-    let initializedMatrix = false
-    const HT16K33_ADDRESS = 0x70
-    const HT16K33_BLINK_CMD = 0x80
-    const HT16K33_BLINK_DISPLAYON = 0x01
-    const HT16K33_CMD_BRIGHTNESS = 0xE0
-    let matBuf = pins.createBuffer(17)
-    function matrixInit() {
-        i2ccmd(HT16K33_ADDRESS, 0x21);// turn on oscillator
-        i2ccmd(HT16K33_ADDRESS, HT16K33_BLINK_CMD | HT16K33_BLINK_DISPLAYON | (0 << 1));
-        i2ccmd(HT16K33_ADDRESS, HT16K33_CMD_BRIGHTNESS | 0xF);
-    }
-    function i2ccmd(addr: number, value: number) {
-        let buf = pins.createBuffer(1)
-        buf[0] = value
-        pins.i2cWriteBuffer(addr, buf)
-    }
-    function matrixShow() {
-        matBuf[0] = 0x00;
-        pins.i2cWriteBuffer(HT16K33_ADDRESS, matBuf);
-    }
-
+    
     //% line.min=1 line.max=8 line.defl=1
     //% text.defl="Hello world !"
     //%block="Show text %text line %line"
@@ -579,8 +553,5 @@ namespace a4_BE_CONVO {
         }
         return 0
     }
-    let asrEventId = 3500
-    let lastvoc = 0
-    let vocInitFlag = 0
-
+    
 }
