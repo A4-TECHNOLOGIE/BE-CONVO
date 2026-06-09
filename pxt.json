@@ -1,6 +1,7 @@
 {
     "name": "a4_BE_CONVO",
-    "description": "MakeCode extension for the A4 model of the AI sorting conveyor (BE-CONVO) Extension MakeCode pour la maquette a4 Convoyeur de tri IA (BE-CONVO)",
+	"version": "1.0.5",
+    "description": "MakeCode extension for the A4 BE-CONVO AI sorting conveyor model",
     "dependencies": {
         "core": "*",
         "radio": "*",
@@ -19,6 +20,7 @@
     "testFiles": [
         "test.ts"
     ],
+	"public": true,
     "supportedTargets": [
         "microbit"
     ],
