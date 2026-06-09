@@ -1,6 +1,6 @@
 {
     "name": "a4_BE_CONVO",
-    "description": "Extension pour la maquette a4 Convoyeur de tri IA",
+    "description": "MakeCode extension for the A4 model of the AI sorting conveyor (BE-CONVO) Extension MakeCode pour la maquette a4 Convoyeur de tri IA (BE-CONVO)",
     "dependencies": {
         "core": "*",
         "radio": "*",
