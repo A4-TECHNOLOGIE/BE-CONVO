@@ -1,6 +1,6 @@
 {
     "name": "a4_BE_CONVO",
-	"version": "1.0.5",
+	"version": "1.0.7",
     "description": "MakeCode extension for the A4 BE-CONVO AI sorting conveyor model",
     "dependencies": {
         "core": "*",
